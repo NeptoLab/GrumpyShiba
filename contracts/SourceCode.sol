@@ -223,8 +223,8 @@ contract GrumpyShib is Context, IERC20, IERC20Metadata, Ownable{
      * construction.
      */
     constructor () {
-        _name = "GrumpyShib";
-        _symbol = "GrumpyShib ";
+        _name = "GrumpyShiba";
+        _symbol = "GRUMPYSHIB";
         _totalSupply;
         _mint(owner(), 1000000000000 * 10 ** (decimals()) );
     }
