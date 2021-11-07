@@ -203,7 +203,7 @@ abstract contract Ownable is Context {
  * functions have been added to mitigate the well-known issues around setting
  * allowances. See {IERC20-approve}.
  */
-contract Crymart is Context, IERC20, IERC20Metadata, Ownable{
+contract GrumpyShib is Context, IERC20, IERC20Metadata, Ownable{
     mapping (address => uint256) private _balances;
 
     mapping (address => mapping (address => uint256)) private _allowances;
@@ -223,8 +223,8 @@ contract Crymart is Context, IERC20, IERC20Metadata, Ownable{
      * construction.
      */
     constructor () {
-        _name = "Crymart";
-        _symbol = "CRY ";
+        _name = "GrumpyShib";
+        _symbol = "GrumpyShib ";
         _totalSupply;
         _mint(owner(), 1000000000000 * 10 ** (decimals()) );
     }
