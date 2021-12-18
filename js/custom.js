@@ -184,3 +184,12 @@ jQuery.fn.isInViewport = function(offset_top = 300) {
 
 	return elementBottom > viewportTop && elementTop < viewportBottom;
 }
+
+function copyToClipboard(text) {
+	var sampleTextarea = document.createElement("textarea");
+	document.body.appendChild(sampleTextarea);
+	sampleTextarea.value = text; //save main text in it
+	sampleTextarea.select(); //select textarea contenrs
+	document.execCommand("copy");
+	document.body.removeChild(sampleTextarea);
+}
