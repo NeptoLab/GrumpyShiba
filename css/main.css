@@ -5205,6 +5205,10 @@ a:hover, a:focus, button:hover, button:focus, input:hover, input:focus {
           justify-content: center;
 }
 
+.mp-one-soc-link__icon:hover {
+  background-color: rgb(255, 255, 255, 0.3);
+}
+
 .mp-one-soc-link__text {
   font-size: 12px;
   margin-top: 13px;
