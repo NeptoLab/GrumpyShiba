@@ -5923,6 +5923,11 @@ a:hover, a:focus, button:hover, button:focus, input:hover, input:focus {
 
 .mp-stake-top-btn-block {
   margin-top: 24px;
+  text-align: center;
+}
+
+.mp-stake-h2 {
+  text-align: center;
 }
 
 .mp-stake-top-note {
