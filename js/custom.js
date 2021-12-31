@@ -190,6 +190,8 @@ function copyToClipboard(text) {
 	document.body.appendChild(sampleTextarea);
 	sampleTextarea.value = text; //save main text in it
 	sampleTextarea.select(); //select textarea contenrs
-	document.execCommand("copy");
+	if (document.execCommand("copy")) {
+		alert('Copied!');
+	}
 	document.body.removeChild(sampleTextarea);
 }
