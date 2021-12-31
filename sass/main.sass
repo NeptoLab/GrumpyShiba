@@ -444,8 +444,40 @@ a,button,input
 	color: #fff
 	text-align: center
 
-
-
+.contract-address
+	display: inline-block
+	background: #FFFFFF
+	border-radius: 30px
+	padding: 10px
+	box-shadow: 0 0 0 2px rgba(101, 115, 252, 0.1)
+	a
+		display: inline-block
+		vertical-align: middle
+		background-size: 20px
+		padding: 10px
+		flex-direction: row
+		align-items: center
+		&:before
+			content: ''
+			display: inline-block
+			vertical-align: middle
+			width: 24px
+			height: 30px
+			margin-right: 5px
+			background: url('../img/svg/logo-bscscan.svg') no-repeat left center
+			background-size: contain
+	button
+		vertical-align: middle
+		background: linear-gradient(270deg, #FBF46D 0%, #FF865E 100%);
+		border-radius: 100px;
+		border: 0
+		appearance: none
+		color: #464544
+		font-weight: bold
+		font-size: 14px
+		line-height: 140%
+		width: 140px
+		height: 54px
 
 
 .section-mp-numbers
