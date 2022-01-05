@@ -444,8 +444,42 @@ a,button,input
 	color: #fff
 	text-align: center
 
-
-
+.contract-address
+	display: inline-block
+	background: #FFFFFF
+	border-radius: 30px
+	padding: 10px
+	box-shadow: 0 0 0 2px rgba(101, 115, 252, 0.1)
+	a
+		display: inline-block
+		vertical-align: middle
+		background-size: 20px
+		padding: 10px
+		flex-direction: row
+		align-items: center
+		white-space: nowrap
+		text-overflow: ellipsis
+		&:before
+			content: ''
+			display: inline-block
+			vertical-align: middle
+			width: 24px
+			height: 30px
+			margin-right: 5px
+			background: url('../img/svg/logo-bscscan.svg') no-repeat left center
+			background-size: contain
+	button
+		vertical-align: middle
+		background: linear-gradient(270deg, #FBF46D 0%, #FF865E 100%);
+		border-radius: 100px;
+		border: 0
+		appearance: none
+		color: #464544
+		font-weight: bold
+		font-size: 14px
+		line-height: 140%
+		width: 140px
+		height: 54px
 
 
 .section-mp-numbers
@@ -688,16 +722,47 @@ a,button,input
 	text-align: center
 .mp-fundraising-stake-btn
 
+.section-mp-docs
+	background-image: url('../img/svg/section-one-bg.svg')
+	background-position: center top
+	background-repeat: no-repeat
+	background-size: cover
+	padding-top: 76px
+	padding-bottom: 124px
+.mp-docs-title
+	text-align: center
+	padding-bottom: 8px
+	position: relative
+	color: #fff
+	&:before
+		content: ''
+		position: absolute
+		width: 80px
+		height: 4px
+		bottom: 0
+		left: 50%
+		transform: translateX(-50%)
+		background-color: #FEE440
 
+.mp-docs-item
+	width: 330px
+	height: 330px
+	border-radius: 12px
+	background-color: #fff
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: center
+	padding: 30px
 
+.mp-docs-item-btn
+	margin-top: 18px
 
-
-
-
-
-
-
-
+.mp-docs-item--left
+	margin-left: -40px
+.mp-docs-item--right
+	margin-left: auto
+	margin-right: -40px
 
 .section-mp-merch
 	background-image: url('../img/svg/section-one-bg.svg')
@@ -872,7 +937,7 @@ a,button,input
 
 
 .mp-stake-top-btn-block
-	margin-top: 24px
+  margin-top: 24px
   text-align: center
 .mp-stake-h2
   text-align: center
@@ -1117,7 +1182,7 @@ a,button,input
 	position: relative
 .mp-roadmap-img
 	position: absolute
-	top: -40px
+	top: 120px
 	left: -85px
 	#mp-roadmap-img-layer
 	 transform: scale(0) rotate(-360deg)

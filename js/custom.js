@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	// Custom JS
 
 
-	$("body").on('click', '[href*="#section-mp-numbers"],[href*="#section-mp-fundraising"],[href*="#section-mp-merch"],[href*="#section-mp-roadmap"]', function(e){
+	$("body").on('click', '[href*="#section-mp-numbers"],[href*="#section-mp-fundraising"],[href*="#section-mp-docs"],[href*="#section-mp-merch"],[href*="#section-mp-roadmap"]', function(e){
 		var fixed_offset = 0;
 		$('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
 		e.preventDefault();
@@ -190,6 +190,8 @@ function copyToClipboard(text) {
 	document.body.appendChild(sampleTextarea);
 	sampleTextarea.value = text; //save main text in it
 	sampleTextarea.select(); //select textarea contenrs
-	document.execCommand("copy");
+	if (document.execCommand("copy")) {
+		alert('Copied!');
+	}
 	document.body.removeChild(sampleTextarea);
 }
