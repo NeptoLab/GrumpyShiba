@@ -3,64 +3,64 @@
 @import libs
 
 ::placeholder
-	color: #666
+  color: #666
 
 ::selection
-	background-color: #01a0e4
-	color: #fff
+  background-color: #01a0e4
+  color: #fff
 
 input, textarea, select
-	outline: none
-	// &:focus:required:invalid
-	// 	border-color: red
-	// &:required:valid
-	// 	border-color: green
+  outline: none
+  // &:focus:required:invalid
+  //   border-color: red
+  // &:required:valid
+  //   border-color: green
 
 body
-	font-size: 18px
-	min-width: 320px
-	position: relative
-	line-height: 1.4
-	font-family: $default-font
-	overflow-x: hidden
-	color: $text
-	letter-spacing: 0.02em
-	font-weight: 300
+  font-size: 18px
+  min-width: 320px
+  position: relative
+  line-height: 1.4
+  font-family: $default-font
+  overflow-x: hidden
+  color: $text
+  letter-spacing: 0.02em
+  font-weight: 300
 
 .text-center
-	text-align: center
+  text-align: center
 
 .text-right
-	text-align: right
+  text-align: right
 
 h1,h2,h3,h4,h5,h6
-	font-weight: 900
-	cursor: default
-	line-height: 1.4
-	margin-bottom: 0
+  font-weight: 900
+  cursor: default
+  line-height: 1.4
+  margin-bottom: 0
 
 .h1,.h2,.h3,.h4,.h5,.h6
-	font-weight: 900
-	cursor: default
-	line-height: 1.4
-	margin-bottom: 0
+  font-weight: 900
+  cursor: default
+  line-height: 1.4
+  margin-bottom: 0
 
 h2,.h2
-	font-size: 46px
+  font-size: 46px
 
 
 p
-	&:last-child
-		margin-bottom: 0
+  &:last-child
+    margin-bottom: 0
 
 a
-	&:hover
-		text-decoration: none
+  &:hover
+    text-decoration: none
 a,button,input
-	transition: 0.4s ease
-	outline: none
-	&:hover,&:focus
-		outline: none
+  transition: 0.4s ease
+  outline: none
+  &:hover,&:focus
+    outline: none
 
 
 .page
@@ -68,872 +68,872 @@ a,button,input
 .page--main
 
 .page-inner
-	position: relative
-	min-height: 800px
-	overflow: hidden
+  position: relative
+  min-height: 800px
+  overflow: hidden
 
 .topline-block
-	background: #FFFFFF
-	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1)
+  background: #FFFFFF
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1)
 
 .topline
-	position: relative
-	height: 100px
-	display: flex
-	align-items: center
-	justify-content: space-between
-	padding-left: 40px
-	padding-right: 40px
+  position: relative
+  height: 100px
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding-left: 40px
+  padding-right: 40px
 .topline-left
-	// position: absolute
-	// left: 40px
-	// top: 50%
-	// transform: translateY(-50%)
+  // position: absolute
+  // left: 40px
+  // top: 50%
+  // transform: translateY(-50%)
 .topline-middle
 
 .topline-right
-	// position: absolute
-	// right: 40px
-	// top: 50%
-	// transform: translateY(-50%)
+  // position: absolute
+  // right: 40px
+  // top: 50%
+  // transform: translateY(-50%)
 
 
 
 
 .topmenu
-	font-size: 18px
-	font-weight: bold
-	margin-left: 78px
-	>ul
-		padding: 0
-		margin: 0
-		list-style-type: none
-		display: flex
-		align-items: center
-		justify-content: flex-end
-		>li
-			display: block
-			margin-left: 40px
-			&:first-child
-				margin-left: 0
-			&:last-child
-				margin-left: 80px
-			a
-				color: #262728
-				&:hover
-					text-decoration: underline
-				&.purple-topline-btn
-					color: #fff
-					&:hover
-						text-decoration: none
+  font-size: 18px
+  font-weight: bold
+  margin-left: 78px
+  >ul
+    padding: 0
+    margin: 0
+    list-style-type: none
+    display: flex
+    align-items: center
+    justify-content: flex-end
+    >li
+      display: block
+      margin-left: 40px
+      &:first-child
+        margin-left: 0
+      &:last-child
+        margin-left: 80px
+      a
+        color: #262728
+        &:hover
+          text-decoration: underline
+        &.purple-topline-btn
+          color: #fff
+          &:hover
+            text-decoration: none
 
 
 
 
 
 .topline-lang-panel
-	position: relative
-	font-weight: 700
-	margin-left: 10px
+  position: relative
+  font-weight: 700
+  margin-left: 10px
 
 .current-lang
-	position: relative
-	display: flex
-	align-items: center
-	&	*
-		pointer-events: none
-	// &:after
-	// 	content: ''
-	// 	position: absolute
-	// 	width: 9px
-	// 	height: 6px
-	// 	background-image: url('../img/icons/arrow-bottom.png')
-	// 	right: 0
-	// 	top: 50%
-	// 	margin-top: -3px
-	// &:hover,&:focus
-	// 	color: #1d2f53
+  position: relative
+  display: flex
+  align-items: center
+  &  *
+    pointer-events: none
+  // &:after
+  //   content: ''
+  //   position: absolute
+  //   width: 9px
+  //   height: 6px
+  //   background-image: url('../img/icons/arrow-bottom.png')
+  //   right: 0
+  //   top: 50%
+  //   margin-top: -3px
+  // &:hover,&:focus
+  //   color: #1d2f53
 
 
 .current-lang__icon
-	width: 30px
-	height: 30px
-	overflow: hidden
-	border-radius: 30px
+  width: 30px
+  height: 30px
+  overflow: hidden
+  border-radius: 30px
 
 .current-lang__text
-	font-size: 18px
-	padding-left: 8px
-	color: #262728
+  font-size: 18px
+  padding-left: 8px
+  color: #262728
 
 
 
 .topline-lang-dropdown
-	display: none
-	position: absolute
-	z-index: 5
-	background-color: #fff
+  display: none
+  position: absolute
+  z-index: 5
+  background-color: #fff
 
-	box-shadow: 0 0 2px rgba(0,0,0,0.1)
-	width: 170px
-	//width: 100%
-	right: 0
-	border-radius: 2px
-	top: 100%
-	margin-top: 5px
-	a
-		display: block
-		font-size: 18px
-		font-weight: 300
-		color: #262728
-		padding-left: 20px
-		padding-right: 20px
-		padding-top: 7px
-		padding-bottom: 7px
-		display: block
-		border-bottom: 1px solid #eff0f7
-		&:last-child
-			border-bottom: 0
-		&:hover
-			color: #FFFFFF
-			background-color: #6573FC
+  box-shadow: 0 0 2px rgba(0,0,0,0.1)
+  width: 170px
+  //width: 100%
+  right: 0
+  border-radius: 2px
+  top: 100%
+  margin-top: 5px
+  a
+    display: block
+    font-size: 18px
+    font-weight: 300
+    color: #262728
+    padding-left: 20px
+    padding-right: 20px
+    padding-top: 7px
+    padding-bottom: 7px
+    display: block
+    border-bottom: 1px solid #eff0f7
+    &:last-child
+      border-bottom: 0
+    &:hover
+      color: #FFFFFF
+      background-color: #6573FC
 
 
 
 .purple-topline-btn
-	display: inline-block
-	line-height: 1
-	color: #ffffff
-	font-size: 18px
-	border: 0
-	font-weight: 900
-	background-color: #9D50F1
-	background-image: linear-gradient(270deg, #9D50F1 0%, #6573FC 100%)
-	text-align: center
-	padding-left: 20px
-	padding-right: 20px
-	padding-top: 16px
-	padding-bottom: 16px
-	border-radius: 25px
-	letter-spacing: 0.04em
-	&:hover
-		color: #ffffff
-		text-decoration: none
-		background-color: #9D50F1
-		filter: brightness(1.2)
-		// background-image: linear-gradient(270deg, darken(#9D50F1,5%) 0%, darken(#6573FC,5%) 100%)
+  display: inline-block
+  line-height: 1
+  color: #ffffff
+  font-size: 18px
+  border: 0
+  font-weight: 900
+  background-color: #9D50F1
+  background-image: linear-gradient(270deg, #9D50F1 0%, #6573FC 100%)
+  text-align: center
+  padding-left: 20px
+  padding-right: 20px
+  padding-top: 16px
+  padding-bottom: 16px
+  border-radius: 25px
+  letter-spacing: 0.04em
+  &:hover
+    color: #ffffff
+    text-decoration: none
+    background-color: #9D50F1
+    filter: brightness(1.2)
+    // background-image: linear-gradient(270deg, darken(#9D50F1,5%) 0%, darken(#6573FC,5%) 100%)
 
 
 
 .section-mp-one
-	background-image: url('../img/svg/section-one-bg.svg')
-	background-position: center top
-	background-repeat: no-repeat
-	background-size: cover
-	padding-top: 80px
-	padding-bottom: 80px
-	h2
-		color: #fff
+  background-image: url('../img/svg/section-one-bg.svg')
+  background-position: center top
+  background-repeat: no-repeat
+  background-size: cover
+  padding-top: 80px
+  padding-bottom: 80px
+  h2
+    color: #fff
 
 .h2-grumpyshiba
-	display: inline-block
-	padding-left: 7px
-	padding-right: 7px
-	padding-top: 3px
-	padding-bottom: 3px
-	background-color: #fff
-	border-radius: 10px
+  display: inline-block
+  padding-left: 7px
+  padding-right: 7px
+  padding-top: 3px
+  padding-bottom: 3px
+  background-color: #fff
+  border-radius: 10px
 .h2-grumpyshiba-text
-	background-image: linear-gradient(270deg, rgba(157, 80, 241, 1) 0%, rgba(101, 115, 252, 1) 100%)
-	-webkit-background-clip: text
-	-webkit-text-fill-color: transparent
+  background-image: linear-gradient(270deg, rgba(157, 80, 241, 1) 0%, rgba(101, 115, 252, 1) 100%)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
 
 .mp-one-content
-	margin-top: 54px
+  margin-top: 54px
 
 .mp-one-descr
-	color: #fff
-	padding-left: 20px
-	border-left: 2px solid #fff
-	max-width: 660px
-	position: relative
-	z-index: 2
-	p
-		margin-bottom: 1.5em
-		&:last-child
-			margin-bottom: 0
+  color: #fff
+  padding-left: 20px
+  border-left: 2px solid #fff
+  max-width: 660px
+  position: relative
+  z-index: 2
+  p
+    margin-bottom: 1.5em
+    &:last-child
+      margin-bottom: 0
 .mp-one-img-block
-	position: relative
+  position: relative
 .mp-one-img
-	// position: relative
-	position: absolute
-	left: -70px
-	top: -60px
-	#mp-one-img-layer
-	 transform: scale(0) rotate(-360deg)
-	#mp-one-img-dog
-	 transform: translate(100%,100%)
-	#mp-one-img-dog-inner
-		transform: translateY(0)
+  // position: relative
+  position: absolute
+  left: -70px
+  top: -60px
+  #mp-one-img-layer
+   transform: scale(0) rotate(-360deg)
+  #mp-one-img-dog
+   transform: translate(100%,100%)
+  #mp-one-img-dog-inner
+   transform: translateY(0)
 
 
 
 .mp-one-img.active
-	#mp-one-img-layer
-	 transform: scale(1) rotate(360deg)
-	#mp-one-img-dog
-	 transform: translate(0%,0%)
-	#mp-one-img-dog-inner
-		transform: translateY(0)
+  #mp-one-img-layer
+   transform: scale(1) rotate(360deg)
+  #mp-one-img-dog
+   transform: translate(0%,0%)
+  #mp-one-img-dog-inner
+    transform: translateY(0)
 
 
 
-	#mp-one-img-layer
-		animation: mp-one-img-layer-anim 2s ease-in-out 1
-		transform-origin: 50% 50%
+  #mp-one-img-layer
+    animation: mp-one-img-layer-anim 2s ease-in-out 1
+    transform-origin: 50% 50%
 
-	#mp-one-img-dog
-		animation: mp-one-img-dog-anim 2s ease-in-out 1
-		transform-origin: 50% 50%
-	#mp-one-img-dog-inner
-		animation: mp-one-img-dog-inner-anim 3s ease infinite 2s
-		transform-origin: 50% 50%
+  #mp-one-img-dog
+    animation: mp-one-img-dog-anim 2s ease-in-out 1
+    transform-origin: 50% 50%
+  #mp-one-img-dog-inner
+    animation: mp-one-img-dog-inner-anim 3s ease infinite 2s
+    transform-origin: 50% 50%
 @keyframes mp-one-img-layer-anim
-	from
-	 transform: scale(0) rotate(-360deg)
-	to
-	 transform: scale(1) rotate(360deg)
+  from
+   transform: scale(0) rotate(-360deg)
+  to
+   transform: scale(1) rotate(360deg)
 
 
 @keyframes mp-one-img-dog-anim
-	from
-	 transform: translate(100%,100%)
-	to
-	 transform: translate(0%,0%)
+  from
+   transform: translate(100%,100%)
+  to
+   transform: translate(0%,0%)
 
 @keyframes mp-one-img-dog-inner-anim
-	from
-		transform: translateY(0)
-	50%
-		transform: translateY(-20px)
-	to
-		transform: translateY(0)
+  from
+    transform: translateY(0)
+  50%
+    transform: translateY(-20px)
+  to
+    transform: translateY(0)
 
 .mp-one-buttons-block
-	margin-top: 35px
+  margin-top: 35px
 .mp-one-buttons
-	display: flex
-	margin-left: -15px
-	margin-right: -15px
+  display: flex
+  margin-left: -15px
+  margin-right: -15px
 .mp-one-btn-wrapper
-	width: 50%
-	margin-top: 20px
-	padding-left: 15px
-	padding-right: 15px
+  width: 50%
+  margin-top: 20px
+  padding-left: 15px
+  padding-right: 15px
 .mp-one-btn
-	width: 100%
+  width: 100%
 
 .yel-gr-btn
-	position: relative
-	display: inline-block
-	line-height: 1
-	color: #464544
-	font-size: 18px
-	border: 0
-	font-weight: 900
-	background-color: #FBF46D
-	background-image: linear-gradient(180deg, #FBF46D 0%, #FF865E 100%)
-	text-align: center
-	padding-left: 20px
-	padding-right: 20px
-	padding-top: 31px
-	padding-bottom: 27px
-	border-radius: 10px
-	box-shadow: 0 4px 0 #ED7B55
-	margin-bottom: 4px
-	min-width: 270px
-	&:hover
-		// color: #ffffff
-		color: #464544
-		text-decoration: none
-		background-color: #FBF46D
-		filter: brightness(1.1)
-	&:before
-		content: ''
-		position: absolute
-		height: 40px
-		left: 3px
-		width: calc(100% - 6px)
-		top: 3px
-		background: linear-gradient(0deg, #FFFFFF -168.75%, rgba(255, 255, 255, 0) 100%)
-		border-radius: 8px
-	span
-		position: relative
-		z-index: 2
-		text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6)
+  position: relative
+  display: inline-block
+  line-height: 1
+  color: #464544
+  font-size: 18px
+  border: 0
+  font-weight: 900
+  background-color: #FBF46D
+  background-image: linear-gradient(180deg, #FBF46D 0%, #FF865E 100%)
+  text-align: center
+  padding-left: 20px
+  padding-right: 20px
+  padding-top: 31px
+  padding-bottom: 27px
+  border-radius: 10px
+  box-shadow: 0 4px 0 #ED7B55
+  margin-bottom: 4px
+  min-width: 270px
+  &:hover
+    // color: #ffffff
+    color: #464544
+    text-decoration: none
+    background-color: #FBF46D
+    filter: brightness(1.1)
+  &:before
+    content: ''
+    position: absolute
+    height: 40px
+    left: 3px
+    width: calc(100% - 6px)
+    top: 3px
+    background: linear-gradient(0deg, #FFFFFF -168.75%, rgba(255, 255, 255, 0) 100%)
+    border-radius: 8px
+  span
+    position: relative
+    z-index: 2
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6)
 .white-tr-btn
-	display: inline-block
-	line-height: 1
-	color: #ffffff
-	font-size: 18px
-	border: 0
-	font-weight: 900
-	background-color: transparent
-	border: 1px solid #FFFFFF
-	text-align: center
-	padding-left: 25px
-	padding-right: 25px
-	padding-top: 30px
-	padding-bottom: 30px
-	border-radius: 5px
-	&:hover
-		color: #464544
-		text-decoration: none
-		background-color: #fff
+  display: inline-block
+  line-height: 1
+  color: #ffffff
+  font-size: 18px
+  border: 0
+  font-weight: 900
+  background-color: transparent
+  border: 1px solid #FFFFFF
+  text-align: center
+  padding-left: 25px
+  padding-right: 25px
+  padding-top: 30px
+  padding-bottom: 30px
+  border-radius: 5px
+  &:hover
+    color: #464544
+    text-decoration: none
+    background-color: #fff
 
 
 .purple-tr-btn
-	display: inline-block
-	line-height: 1
-	color: #6573FC
-	font-size: 18px
-	border: 0
-	font-weight: 900
-	background-color: transparent
-	border: 1px solid #6573FC
-	text-align: center
-	padding-left: 25px
-	padding-right: 25px
-	padding-top: 30px
-	padding-bottom: 30px
-	border-radius: 5px
-	min-width: 270px
-	&:hover
-		color: #fff
-		text-decoration: none
-		background-color: #6573FC
+  display: inline-block
+  line-height: 1
+  color: #6573FC
+  font-size: 18px
+  border: 0
+  font-weight: 900
+  background-color: transparent
+  border: 1px solid #6573FC
+  text-align: center
+  padding-left: 25px
+  padding-right: 25px
+  padding-top: 30px
+  padding-bottom: 30px
+  border-radius: 5px
+  min-width: 270px
+  &:hover
+    color: #fff
+    text-decoration: none
+    background-color: #6573FC
 
 .mp-one-soc-links-block
-	margin-top: 60px
+  margin-top: 60px
 .mp-one-soc-links
-	display: flex
-	margin-left: -15px
-	margin-right: -15px
-	flex-wrap: wrap
+  display: flex
+  margin-left: -15px
+  margin-right: -15px
+  flex-wrap: wrap
 
 .mp-one-soc-link-wrapper
-	padding-left: 15px
-	padding-right: 15px
+  padding-left: 15px
+  padding-right: 15px
 .mp-one-soc-link
-	display: block
+  display: block
 
 
 .mp-one-soc-link__icon
-	width: 60px
-	height: 60px
-	border-radius: 30px
-	background-color: #FFFFFF
-	display: flex
-	align-items: center
-	justify-content: center
-	&:hover
-		background-color: rgba(255, 255, 255, 0.3)
+  width: 60px
+  height: 60px
+  border-radius: 30px
+  background-color: #FFFFFF
+  display: flex
+  align-items: center
+  justify-content: center
+  &:hover
+    background-color: rgba(255, 255, 255, 0.3)
 .mp-one-soc-link__text
-	font-size: 12px
-	margin-top: 13px
-	color: #fff
-	text-align: center
+  font-size: 12px
+  margin-top: 13px
+  color: #fff
+  text-align: center
 
 .contract-address
-	display: inline-block
-	background: #FFFFFF
-	border-radius: 30px
-	padding: 10px
-	box-shadow: 0 0 0 2px rgba(101, 115, 252, 0.1)
-	a
-		display: inline-block
-		vertical-align: middle
-		background-size: 20px
-		padding: 10px
-		flex-direction: row
-		align-items: center
-		white-space: nowrap
-		text-overflow: ellipsis
-		&:before
-			content: ''
-			display: inline-block
-			vertical-align: middle
-			width: 24px
-			height: 30px
-			margin-right: 5px
-			background: url('../img/svg/logo-bscscan.svg') no-repeat left center
-			background-size: contain
-	button
-		vertical-align: middle
-		background: linear-gradient(270deg, #FBF46D 0%, #FF865E 100%);
-		border-radius: 100px;
-		border: 0
-		appearance: none
-		color: #464544
-		font-weight: bold
-		font-size: 14px
-		line-height: 140%
-		width: 140px
-		height: 54px
+  display: inline-block
+  background: #FFFFFF
+  border-radius: 30px
+  padding: 10px
+  box-shadow: 0 0 0 2px rgba(101, 115, 252, 0.1)
+  a
+    display: inline-block
+    vertical-align: middle
+    background-size: 20px
+    padding: 10px
+    flex-direction: row
+    align-items: center
+    white-space: nowrap
+    text-overflow: ellipsis
+    &:before
+      content: ''
+      display: inline-block
+      vertical-align: middle
+      width: 24px
+      height: 30px
+      margin-right: 5px
+      background: url('../img/svg/logo-bscscan.svg') no-repeat left center
+      background-size: contain
+  button
+    vertical-align: middle
+    background: linear-gradient(270deg, #FBF46D 0%, #FF865E 100%)
+    border-radius: 100px
+    border: 0
+    appearance: none
+    color: #464544
+    font-weight: bold
+    font-size: 14px
+    line-height: 140%
+    width: 140px
+    height: 54px
 
 
 .section-mp-numbers
-	background-color: #F7F8F9
-	padding-top: 76px
-	padding-bottom: 100px
+  background-color: #F7F8F9
+  padding-top: 76px
+  padding-bottom: 100px
 
 .mp-numbers-title
-	text-align: center
-	padding-bottom: 8px
-	position: relative
-	&:before
-		content: ''
-		position: absolute
-		width: 80px
-		height: 4px
-		bottom: 0
-		left: 50%
-		transform: translateX(-50%)
-		background-color: #6573FC
+  text-align: center
+  padding-bottom: 8px
+  position: relative
+  &:before
+    content: ''
+    position: absolute
+    width: 80px
+    height: 4px
+    bottom: 0
+    left: 50%
+    transform: translateX(-50%)
+    background-color: #6573FC
 
 
 .mp-numbers-block
-	margin-top: 100px
+  margin-top: 100px
 
 
 .mp-number
-	margin: 5px
-	width: 160px
-	height: 160px
-	border-radius: 100px
-	display: flex
-	flex-direction: column
-	align-items: center
-	justify-content: center
-	background: linear-gradient(180deg, #9D50F1 0%, #6573FC 100%)
-	box-shadow: 0 0 0 5px rgba(101, 115, 252, 0.2)
-	text-align: center
-	font-weight: 900
-	position: relative
-	z-index: 2
+  margin: 5px
+  width: 160px
+  height: 160px
+  border-radius: 100px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  background: linear-gradient(180deg, #9D50F1 0%, #6573FC 100%)
+  box-shadow: 0 0 0 5px rgba(101, 115, 252, 0.2)
+  text-align: center
+  font-weight: 900
+  position: relative
+  z-index: 2
 .mp-number__number
-	color: #FEE440
-	font-size: 36px
+  color: #FEE440
+  font-size: 36px
 
 .mp-number__text
-	font-size: 20px
-	color: #fff
+  font-size: 20px
+  color: #fff
 
 .mp-number--even
-	margin-top: 65px
+  margin-top: 65px
 
 
 .mp-number-img-block
-	margin-top: -85px
-	display: flex
-	justify-content: center
+  margin-top: -85px
+  display: flex
+  justify-content: center
 .mp-number-img
-	#mp-number-img-layer
-	 transform: scale(0) rotate(-360deg)
-	#mp-number-img-dog
-	 transform: translateY(-100%)
+  #mp-number-img-layer
+   transform: scale(0) rotate(-360deg)
+  #mp-number-img-dog
+   transform: translateY(-100%)
 
 .mp-number-img.active
-	#mp-number-img-layer
-	 transform: scale(1) rotate(360deg)
-	#mp-number-img-dog
-	 transform: translateY(0)
+  #mp-number-img-layer
+   transform: scale(1) rotate(360deg)
+  #mp-number-img-dog
+   transform: translateY(0)
 
 
 
-	#mp-number-img-layer
-		animation: mp-number-img-layer-anim 2s ease-in-out 1
-		transform-origin: 50% 50%
+  #mp-number-img-layer
+    animation: mp-number-img-layer-anim 2s ease-in-out 1
+    transform-origin: 50% 50%
 
-	#mp-number-img-dog
-		animation: mp-number-img-dog-anim 2s ease-out 1
-		transform-origin: 50% 50%
+  #mp-number-img-dog
+    animation: mp-number-img-dog-anim 2s ease-out 1
+    transform-origin: 50% 50%
 
 @keyframes mp-number-img-layer-anim
-	from
-	 transform: scale(0) rotate(-360deg)
-	to
-	 transform: scale(1) rotate(360deg)
+  from
+   transform: scale(0) rotate(-360deg)
+  to
+   transform: scale(1) rotate(360deg)
 
 
 @keyframes mp-number-img-dog-anim
-	from
-	 transform: translateY(-100%)
-	70%
-	 transform: translateY(0)
-	80%
-	 transform: translateY(-5%)
-	to
-	 transform: translateY(0)
+  from
+   transform: translateY(-100%)
+  70%
+   transform: translateY(0)
+  80%
+   transform: translateY(-5%)
+  to
+   transform: translateY(0)
 
 
 
 .burned-block
-	margin-top: -30px
+  margin-top: -30px
 .burned-title-block
-	display: flex
-	justify-content: center
+  display: flex
+  justify-content: center
 .burned-title
-	text-transform: uppercase
-	background-image: linear-gradient(180deg, rgba(251, 244, 109, 1) 0%, rgba(255, 134, 94, 1) 100%)
-	-webkit-background-clip: text
-	-webkit-text-fill-color: transparent
+  text-transform: uppercase
+  background-image: linear-gradient(180deg, rgba(251, 244, 109, 1) 0%, rgba(255, 134, 94, 1) 100%)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
 
 
 .burned-progress-block
-	margin-top: 4px
+  margin-top: 4px
 
 .burned-progress
-	height: 50px
-	border-radius: 50px
-	background-image: linear-gradient(180deg, #9D50F1 0%, #6573FC 100%)
-	padding: 2px
+  height: 50px
+  border-radius: 50px
+  background-image: linear-gradient(180deg, #9D50F1 0%, #6573FC 100%)
+  padding: 2px
 
 .burned-progress-inner
-	background-color: #fff
-	height: 100%
-	width: 100%
-	border-radius: 50px
-	position: relative
-	overflow: hidden
-	&:before
-		content: ''
-		position: absolute
-		width: 100%
-		height: 100%
-		background-color: rgba(101, 115, 252, 0.1)
+  background-color: #fff
+  height: 100%
+  width: 100%
+  border-radius: 50px
+  position: relative
+  overflow: hidden
+  &:before
+    content: ''
+    position: absolute
+    width: 100%
+    height: 100%
+    background-color: rgba(101, 115, 252, 0.1)
 
 
 .burned-progress-progress
-	position: absolute
-	left: 0
-	top: 0
-	height: 100%
-	background-image: linear-gradient(270deg, #FBF46D 0%, #FF865E 100%)
-	overflow: hidden
-	&:before
-		content: ''
-		position: absolute
-		left: -100%
-		top: 0
-		width: 200%
-		height: 100%
-		background-image: url('../img/svg/slant-mask.svg')
-		background-position: top left
-		background-size: auto
-		background-repeat: repeat-x
-		animation: bpProgressRoss 20s linear infinite
-	&:after
-		content: ''
-		position: absolute
-		height: 50%
-		width: 100%
-		background-color: rgba(255,255,255, 0.3)
-		left: 0
-		top: 0
+  position: absolute
+  left: 0
+  top: 0
+  height: 100%
+  background-image: linear-gradient(270deg, #FBF46D 0%, #FF865E 100%)
+  overflow: hidden
+  &:before
+    content: ''
+    position: absolute
+    left: -100%
+    top: 0
+    width: 200%
+    height: 100%
+    background-image: url('../img/svg/slant-mask.svg')
+    background-position: top left
+    background-size: auto
+    background-repeat: repeat-x
+    animation: bpProgressRoss 20s linear infinite
+  &:after
+    content: ''
+    position: absolute
+    height: 50%
+    width: 100%
+    background-color: rgba(255,255,255, 0.3)
+    left: 0
+    top: 0
 
 
 @keyframes bpProgressRoss
-	from
-		// transform: translateX(-50%)
-		left: -100%
-	to
-		// transform: translateX(50%)
-		left: 0%
+  from
+    // transform: translateX(-50%)
+    left: -100%
+  to
+    // transform: translateX(50%)
+    left: 0%
 
 
 
 .section-mp-fundraising
-	padding-top: 76px
-	padding-bottom: 100px
+  padding-top: 76px
+  padding-bottom: 100px
 
 .mp-fundraising-title
-	text-align: center
-	padding-bottom: 8px
-	position: relative
-	&:before
-		content: ''
-		position: absolute
-		width: 80px
-		height: 4px
-		bottom: 0
-		left: 50%
-		transform: translateX(-50%)
-		background-color: #6573FC
+  text-align: center
+  padding-bottom: 8px
+  position: relative
+  &:before
+    content: ''
+    position: absolute
+    width: 80px
+    height: 4px
+    bottom: 0
+    left: 50%
+    transform: translateX(-50%)
+    background-color: #6573FC
 
 
 .fr-items-block
 
 .fr-items
-	margin-top: 30px
+  margin-top: 30px
 
 .fr-item
-	background-color: #F7F8F9
-	margin-top: 10px
-	padding: 30px
-	padding-bottom: 24px
-	min-height: calc(100% - 10px)
-	border-radius: 10px
+  background-color: #F7F8F9
+  margin-top: 10px
+  padding: 30px
+  padding-bottom: 24px
+  min-height: calc(100% - 10px)
+  border-radius: 10px
 .fr-item__img
-	width: 100px
-	height: 100px
-	margin-right: auto
-	margin-left: auto
-	display: flex
-	align-items: center
-	justify-content: center
-	img
-		max-width: 100%
-		max-height: 100%
+  width: 100px
+  height: 100px
+  margin-right: auto
+  margin-left: auto
+  display: flex
+  align-items: center
+  justify-content: center
+  img
+    max-width: 100%
+    max-height: 100%
 .fr-item__title
-	margin-top: 16px
-	padding-bottom: 12px
-	position: relative
-	text-align: center
-	font-weight: 900
-	font-size: 26px
-	&:before
-		content: ''
-		position: absolute
-		width: 80px
-		height: 1px
-		bottom: 0
-		left: 50%
-		transform: translateX(-50%)
-		background-color: #6573FC
+  margin-top: 16px
+  padding-bottom: 12px
+  position: relative
+  text-align: center
+  font-weight: 900
+  font-size: 26px
+  &:before
+    content: ''
+    position: absolute
+    width: 80px
+    height: 1px
+    bottom: 0
+    left: 50%
+    transform: translateX(-50%)
+    background-color: #6573FC
 
 .fr-item__descr
-	margin-top: 10px
-	text-align: center
+  margin-top: 10px
+  text-align: center
 
 
 .mp-fundraising-stake-btn-block
-	margin-top: 30px
-	text-align: center
+  margin-top: 30px
+  text-align: center
 .mp-fundraising-stake-btn
 
 .section-mp-docs
-	background-image: url('../img/svg/section-one-bg.svg')
-	background-position: center top
-	background-repeat: no-repeat
-	background-size: cover
-	padding-top: 76px
-	padding-bottom: 124px
+  background-image: url('../img/svg/section-one-bg.svg')
+  background-position: center top
+  background-repeat: no-repeat
+  background-size: cover
+  padding-top: 76px
+  padding-bottom: 124px
 .mp-docs-title
-	text-align: center
-	padding-bottom: 8px
-	position: relative
-	color: #fff
-	&:before
-		content: ''
-		position: absolute
-		width: 80px
-		height: 4px
-		bottom: 0
-		left: 50%
-		transform: translateX(-50%)
-		background-color: #FEE440
+  text-align: center
+  padding-bottom: 8px
+  position: relative
+  color: #fff
+  &:before
+    content: ''
+    position: absolute
+    width: 80px
+    height: 4px
+    bottom: 0
+    left: 50%
+    transform: translateX(-50%)
+    background-color: #FEE440
 
 .mp-docs-item
-	width: 330px
-	height: 330px
-	border-radius: 12px
-	background-color: #fff
-	display: flex
-	flex-direction: column
-	align-items: center
-	justify-content: center
-	padding: 30px
+  width: 330px
+  height: 330px
+  border-radius: 12px
+  background-color: #fff
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  padding: 30px
 
 .mp-docs-item-btn
-	margin-top: 18px
+  margin-top: 18px
 
 .mp-docs-item--left
-	margin-left: -40px
+  margin-left: -40px
 .mp-docs-item--right
-	margin-left: auto
-	margin-right: -40px
+  margin-left: auto
+  margin-right: -40px
 
 .section-mp-merch
-	background-image: url('../img/svg/section-one-bg.svg')
-	background-position: center top
-	background-repeat: no-repeat
-	background-size: cover
-	padding-top: 76px
-	padding-bottom: 124px
-	.section-descr
-		color: #fff
+  background-image: url('../img/svg/section-one-bg.svg')
+  background-position: center top
+  background-repeat: no-repeat
+  background-size: cover
+  padding-top: 76px
+  padding-bottom: 124px
+  .section-descr
+    color: #fff
 .mp-merch-title
-	text-align: center
-	padding-bottom: 8px
-	position: relative
-	color: #fff
-	&:before
-		content: ''
-		position: absolute
-		width: 80px
-		height: 4px
-		bottom: 0
-		left: 50%
-		transform: translateX(-50%)
-		background-color: #FEE440
+  text-align: center
+  padding-bottom: 8px
+  position: relative
+  color: #fff
+  &:before
+    content: ''
+    position: absolute
+    width: 80px
+    height: 4px
+    bottom: 0
+    left: 50%
+    transform: translateX(-50%)
+    background-color: #FEE440
 
 .section-descr
-	margin-top: 28px
-	font-size: 26px
-	text-align: center
-	b
-		font-weight: 700
+  margin-top: 28px
+  font-size: 26px
+  text-align: center
+  b
+    font-weight: 700
 
 .mp-merch-items-block
-	margin-top: 120px
+  margin-top: 120px
 .mp-merch-items
 
 
 .mp-merch-item
-	width: 330px
-	height: 330px
-	border-radius: 50%
-	background-color: #fff
-	display: flex
-	align-items: center
-	justify-content: center
-	padding: 30px
+  width: 330px
+  height: 330px
+  border-radius: 50%
+  background-color: #fff
+  display: flex
+  align-items: center
+  justify-content: center
+  padding: 30px
 
 .mp-merch-item__img
-	img
-		max-width: 100%
-		max-height: 100%
+  img
+    max-width: 100%
+    max-height: 100%
 
 .mp-merch-img-block
-	display: flex
-	justify-content: center
-	position: relative
+  display: flex
+  justify-content: center
+  position: relative
 .mp-merch-img
-	position: absolute
-	top: -74px
-	left: 50%
-	transform: translateX(-50%)
-	#mp-merch-img-layer
-	 transform: scale(0) rotate(-360deg)
+  position: absolute
+  top: -74px
+  left: 50%
+  transform: translateX(-50%)
+  #mp-merch-img-layer
+   transform: scale(0) rotate(-360deg)
 
-	#mp-merch-img-dog
-	 transform: translateY(-100%)
+  #mp-merch-img-dog
+   transform: translateY(-100%)
 
-	#mp-merch-img-cloud
-	 transform: translate(30%,20%)
-	 opacity: 0
+  #mp-merch-img-cloud
+   transform: translate(30%,20%)
+   opacity: 0
 
-	#mp-merch-img-cloud-inner
-	 transform: translateY(0)
+  #mp-merch-img-cloud-inner
+   transform: translateY(0)
 
 
 
 .mp-merch-img.active
 
-	#mp-merch-img-layer
-	 transform: scale(1) rotate(360deg)
+  #mp-merch-img-layer
+   transform: scale(1) rotate(360deg)
 
-	#mp-merch-img-dog
-	 transform: translateY(0)
+  #mp-merch-img-dog
+   transform: translateY(0)
 
-	#mp-merch-img-cloud
-	 opacity: 1
-	 transform: translate(0%,0%)
-
-
-	#mp-merch-img-cloud-inner
-	 transform: translateY(0)
+  #mp-merch-img-cloud
+   opacity: 1
+   transform: translate(0%,0%)
 
 
+  #mp-merch-img-cloud-inner
+   transform: translateY(0)
 
 
-	#mp-merch-img-layer
-		animation: mp-merch-img-layer-anim 2s ease-in-out 1
-		transform-origin: 50% 50%
 
-	#mp-merch-img-dog
-		animation: mp-merch-img-dog-anim 2s ease-out 1
-		transform-origin: 50% 50%
-		z-index: 2
-		position: relative
-	#mp-merch-img-cloud
-		animation: mp-merch-img-cloud-anim 3s linear 1
-		// transform-origin: 50% 50%
-		z-index: 1
-		position: relative
-	#mp-merch-img-cloud-inner
-		animation: mp-merch-img-cloud-inner-anim 2s ease-in-out infinite
-		transform-origin: 50% 50%
-		z-index: 1
-		position: relative
+
+  #mp-merch-img-layer
+    animation: mp-merch-img-layer-anim 2s ease-in-out 1
+    transform-origin: 50% 50%
+
+  #mp-merch-img-dog
+    animation: mp-merch-img-dog-anim 2s ease-out 1
+    transform-origin: 50% 50%
+    z-index: 2
+    position: relative
+  #mp-merch-img-cloud
+    animation: mp-merch-img-cloud-anim 3s linear 1
+    // transform-origin: 50% 50%
+    z-index: 1
+    position: relative
+  #mp-merch-img-cloud-inner
+    animation: mp-merch-img-cloud-inner-anim 2s ease-in-out infinite
+    transform-origin: 50% 50%
+    z-index: 1
+    position: relative
 @keyframes mp-merch-img-layer-anim
-	from
-	 transform: scale(0) rotate(-360deg)
-	to
-	 transform: scale(1) rotate(360deg)
+  from
+   transform: scale(0) rotate(-360deg)
+  to
+   transform: scale(1) rotate(360deg)
 
 
 @keyframes mp-merch-img-dog-anim
-	from
-	 transform: translateY(-100%)
-	70%
-	 transform: translateY(0)
-	80%
-	 transform: translateY(-5%)
-	to
-	 transform: translateY(0)
+  from
+   transform: translateY(-100%)
+  70%
+   transform: translateY(0)
+  80%
+   transform: translateY(-5%)
+  to
+   transform: translateY(0)
 
 
 @keyframes mp-merch-img-cloud-anim
-	from
-	 transform: translate(30%,20%)
-	 opacity: 0
-	65%
-	 transform: translate(30%,20%)
-	 opacity: 0
-	66%
-	 transform: translate(30%,20%)
-	 opacity: 1
-	to
-	 transform: translate(0%,0%)
+  from
+   transform: translate(30%,20%)
+   opacity: 0
+  65%
+   transform: translate(30%,20%)
+   opacity: 0
+  66%
+   transform: translate(30%,20%)
+   opacity: 1
+  to
+   transform: translate(0%,0%)
 
 
 @keyframes mp-merch-img-cloud-inner-anim
-	from
-	 transform: translateY(0)
-	50%
-	 transform: translateY(-10px)
-	to
-	 transform: translateY(0)
+  from
+   transform: translateY(0)
+  50%
+   transform: translateY(-10px)
+  to
+   transform: translateY(0)
 
 
 .mp-merch-item--left
-	margin-left: -40px
+  margin-left: -40px
 .mp-merch-item--right
-	margin-left: auto
-	margin-right: -40px
+  margin-left: auto
+  margin-right: -40px
 
 
 
 
 .section-mp-stake
-	padding-top: 150px
-	padding-bottom: 100px
-	background-color: #F7F8F9
+  padding-top: 150px
+  padding-bottom: 100px
+  background-color: #F7F8F9
 .mp-stake-top-left
-	position: relative
-	z-index: 2
+  position: relative
+  z-index: 2
 
 
 .mp-stake-top-btn-block
@@ -944,474 +944,468 @@ a,button,input
 .mp-stake-top-btn
 
 .mp-stake-top-note
-	margin-top: 30px
+  margin-top: 30px
 
 
 .mp-stake-top-img-block
-	position: relative
+  position: relative
 .mp-stake-top-img
-	position: absolute
-	left: 50%
-	top: -134px
-	transform: translateX(-50%)
-	#mp-stake-top-img-layer
-	 transform: scale(0) rotate(-360deg)
-	#mp-stake-top-img-dog
-	 transform: translateX(100%)
-	#mp-stake-top-img-flower
-	 transform: translateX(-100%)
+  position: absolute
+  left: 50%
+  top: -134px
+  transform: translateX(-50%)
+  #mp-stake-top-img-layer
+   transform: scale(0) rotate(-360deg)
+  #mp-stake-top-img-dog
+   transform: translateX(100%)
+  #mp-stake-top-img-flower
+   transform: translateX(-100%)
 
 
 
 .mp-stake-top-img.active
 
-	#mp-stake-top-img-layer
-	 transform: scale(1) rotate(360deg)
-	#mp-stake-top-img-dog
-	 transform: translateX(0)
-	#mp-stake-top-img-flower
-	 transform: translateX(0)
+  #mp-stake-top-img-layer
+   transform: scale(1) rotate(360deg)
+  #mp-stake-top-img-dog
+   transform: translateX(0)
+  #mp-stake-top-img-flower
+   transform: translateX(0)
 
 
-	#mp-stake-top-img-layer
-		animation: mp-stake-top-img-layer-anim 2s ease-in-out 1
-		transform-origin: 50% 50%
+  #mp-stake-top-img-layer
+    animation: mp-stake-top-img-layer-anim 2s ease-in-out 1
+    transform-origin: 50% 50%
 
-	#mp-stake-top-img-dog
-		animation: mp-stake-top-img-dog-anim 2s ease-in-out 1
-		transform-origin: 50% 50%
-		z-index: 2
-		position: relative
-	#mp-stake-top-img-flower
-		animation: mp-stake-top-img-flower-anim 2s ease-in-out 1
-		transform-origin: 50% 50%
-		z-index: 2
-		position: relative
+  #mp-stake-top-img-dog
+    animation: mp-stake-top-img-dog-anim 2s ease-in-out 1
+    transform-origin: 50% 50%
+    z-index: 2
+    position: relative
+  #mp-stake-top-img-flower
+    animation: mp-stake-top-img-flower-anim 2s ease-in-out 1
+    transform-origin: 50% 50%
+    z-index: 2
+    position: relative
 @keyframes mp-stake-top-img-layer-anim
-	from
-	 transform: scale(0) rotate(-360deg)
-	to
-	 transform: scale(1) rotate(360deg)
+  from
+   transform: scale(0) rotate(-360deg)
+  to
+   transform: scale(1) rotate(360deg)
 
 
 @keyframes mp-stake-top-img-dog-anim
-	from
-	 transform: translateX(100%)
-	to
-	 transform: translateX(0)
+  from
+   transform: translateX(100%)
+  to
+   transform: translateX(0)
 
 
 @keyframes mp-stake-top-img-flower-anim
-	from
-	 transform: translateX(-100%)
-	to
-	 transform: translateX(0)
+  from
+   transform: translateX(-100%)
+  to
+   transform: translateX(0)
 
 
 
 
 .winners-block
-	margin-top: 126px
+  margin-top: 126px
 
 .winners-title
-	padding-bottom: 8px
-	position: relative
-	text-align: center
-	&:before
-		content: ''
-		position: absolute
-		width: 80px
-		height: 4px
-		bottom: 0
-		left: 50%
-		transform: translateX(-50%)
-		background-color: #6573FC
+  padding-bottom: 8px
+  position: relative
+  text-align: center
+  &:before
+    content: ''
+    position: absolute
+    width: 80px
+    height: 4px
+    bottom: 0
+    left: 50%
+    transform: translateX(-50%)
+    background-color: #6573FC
 
 
 
 .winner-slider-block
-	margin-top: 25px
-	padding-bottom: 20px
+  margin-top: 25px
+  padding-bottom: 20px
 
 
 
 
-		
+    
 .slick-slide
-	outline: none !important
+  outline: none !important
 
 .winner-slider
 
-	.slick-prev, .slick-next
-		width: 40px
-		height: 40px
-		padding: 0
-		border-radius: 0
-		cursor: pointer
-		z-index: 4
-		background-color: #fff
-		position: absolute
-		border: 0
-		padding: 0
-		top: 50%
-		border-radius: 40px
-		margin-top: -20px
-		box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1)
-		&:before
-			content: ''
-			position: absolute
-			mask-repeat: no-repeat
-			mask-position: center
-			mask-size: 8px 12px
-			width: 8px
-			height: 12px
-			top: 50%
-			left: 50%
-			transform: translate(-50%, -50%)
-			background-color: #6573FC
-	.slick-prev
-		left: 30px
-		&:before
-			mask-image: url('../img/svg/slider-arrow-left.svg')
-		&:hover
-			background-color: #DADBDC
-	.slick-next
-		right: 30px
-		&:before
-			mask-image: url('../img/svg/slider-arrow-right.svg')
-		&:hover
-			background-color: #DADBDC
-	.slick-dots
-		list-style-type: none
-		padding: 0
-		margin: 0
-		position: absolute
-		width: 100%
-		bottom: -20px
-		display: flex
-		justify-content: center
-		left: 0
-		li
-			width: 40px
-			height: 4px
-			margin-right: 5px
-			margin-left: 5px
-			&:only-child
-				display: none
-			button
-				box-sizing: border-box
-				width: 40px
-				height: 4px
-				border-radius: 4px
-				padding: 0
-				border-color: transparent
-				border: 2px solid #DADBDC
-				background-color: #DADBDC
-				text-indent: -9999px
-				font-size: 0
-				display: block
-				&:before
-					content: ''
-					display: none
-			&.slick-active
-				button
-					background-color: #6573FC
-					border-color: #6573FC
+  .slick-prev, .slick-next
+    width: 40px
+    height: 40px
+    padding: 0
+    border-radius: 0
+    cursor: pointer
+    z-index: 4
+    background-color: #fff
+    position: absolute
+    border: 0
+    padding: 0
+    top: 50%
+    border-radius: 40px
+    margin-top: -20px
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1)
+    &:before
+      content: ''
+      position: absolute
+      mask-repeat: no-repeat
+      mask-position: center
+      mask-size: 8px 12px
+      width: 8px
+      height: 12px
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+      background-color: #6573FC
+  .slick-prev
+    left: 30px
+    &:before
+      mask-image: url('../img/svg/slider-arrow-left.svg')
+    &:hover
+      background-color: #DADBDC
+  .slick-next
+    right: 30px
+    &:before
+      mask-image: url('../img/svg/slider-arrow-right.svg')
+    &:hover
+      background-color: #DADBDC
+  .slick-dots
+    list-style-type: none
+    padding: 0
+    margin: 0
+    position: absolute
+    width: 100%
+    bottom: -20px
+    display: flex
+    justify-content: center
+    left: 0
+    li
+      width: 40px
+      height: 4px
+      margin-right: 5px
+      margin-left: 5px
+      &:only-child
+        display: none
+      button
+        box-sizing: border-box
+        width: 40px
+        height: 4px
+        border-radius: 4px
+        padding: 0
+        border-color: transparent
+        border: 2px solid #DADBDC
+        background-color: #DADBDC
+        text-indent: -9999px
+        font-size: 0
+        display: block
+        &:before
+          content: ''
+          display: none
+      &.slick-active
+        button
+          background-color: #6573FC
+          border-color: #6573FC
 
 
 .winner-slide
-	display: none
-	padding: 15px
-	&:first-child
-		display: block
+  display: none
+  padding: 15px
+  &:first-child
+    display: block
 
 
 .winner-item
-	background-color: #fff
-	border-radius: 10px
-	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1)
-	padding: 20px 30px
-	display: flex
-	align-items: center
+  background-color: #fff
+  border-radius: 10px
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1)
+  padding: 20px 30px
+  display: flex
+  align-items: center
 
 .winner-item__img
-	width: 100px
-	height: 100px
-	border-radius: 50px
-	overflow: hidden
-	img
-		width: 100%
-		height: 100%
-		object-fit: cover
-		border-radius: 50px
+  width: 100px
+  height: 100px
+  border-radius: 50px
+  overflow: hidden
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover
+    border-radius: 50px
 .winner-item__content
-	width: calc(100% - 100px)
-	padding-left: 20px
+  width: calc(100% - 100px)
+  padding-left: 20px
 
 .winner-item__address
-	font-weight: 700
-	color: #6573FC
+  font-weight: 700
+  color: #6573FC
 .winner-item__date
-	font-size: 14px
-	margin-top: 6px
+  font-size: 14px
+  margin-top: 6px
 
 
 
 .section-mp-roadmap
-	padding-top: 76px
-	padding-bottom: 100px
+  padding-top: 76px
+  padding-bottom: 100px
 
 .mp-roadmap-title
-	padding-bottom: 8px
-	position: relative
-	text-align: center
-	&:before
-		content: ''
-		position: absolute
-		width: 80px
-		height: 4px
-		bottom: 0
-		left: 50%
-		transform: translateX(-50%)
-		background-color: #6573FC
+  padding-bottom: 8px
+  position: relative
+  text-align: center
+  &:before
+    content: ''
+    position: absolute
+    width: 80px
+    height: 4px
+    bottom: 0
+    left: 50%
+    transform: translateX(-50%)
+    background-color: #6573FC
 
 .mp-roadmap-block
-	margin-top: 40px
+  margin-top: 40px
 
 .mp-roadmap-img-block
-	position: relative
+  position: relative
 .mp-roadmap-img
-	position: absolute
-	top: 120px
-	left: -85px
-	#mp-roadmap-img-layer
-	 transform: scale(0) rotate(-360deg)
-	#mp-roadmap-img-dog
-	 transform: translateY(100%)
-	#mp-roadmap-img-dog-inner
-	 transform: translateY(0)
+  position: absolute
+  top: 120px
+  left: -85px
+  #mp-roadmap-img-layer
+   transform: scale(0) rotate(-360deg)
+  #mp-roadmap-img-dog
+   transform: translateY(100%)
+  #mp-roadmap-img-dog-inner
+   transform: translateY(0)
 
 
 
 
 .mp-roadmap-img.active
-	#mp-roadmap-img-layer
-	 transform: scale(1) rotate(360deg)
-	#mp-roadmap-img-dog
-	 transform: translateY(0)
-	#mp-roadmap-img-dog-inner
-	 transform: translateY(0)
+  #mp-roadmap-img-layer
+   transform: scale(1) rotate(360deg)
+  #mp-roadmap-img-dog
+   transform: translateY(0)
+  #mp-roadmap-img-dog-inner
+   transform: translateY(0)
 
 
-	#mp-roadmap-img-layer
-		animation: mp-roadmap-img-layer-anim 2s ease-in-out 1
-		transform-origin: 50% 50%
+  #mp-roadmap-img-layer
+    animation: mp-roadmap-img-layer-anim 2s ease-in-out 1
+    transform-origin: 50% 50%
 
-	#mp-roadmap-img-dog
-		animation: mp-roadmap-img-dog-anim 2s ease-in-out 1
-		transform-origin: 50% 50%
+  #mp-roadmap-img-dog
+    animation: mp-roadmap-img-dog-anim 2s ease-in-out 1
+    transform-origin: 50% 50%
 
-	#mp-roadmap-img-dog-inner
-		animation: mp-roadmap-img-dog-inner-anim 2s ease-in-out infinite 2s
-		transform-origin: 50% 50%
+  #mp-roadmap-img-dog-inner
+    animation: mp-roadmap-img-dog-inner-anim 2s ease-in-out infinite 2s
+    transform-origin: 50% 50%
 
 @keyframes mp-roadmap-img-layer-anim
-	from
-	 transform: scale(0) rotate(-360deg)
-	to
-	 transform: scale(1) rotate(360deg)
+  from
+   transform: scale(0) rotate(-360deg)
+  to
+   transform: scale(1) rotate(360deg)
 
 
 @keyframes mp-roadmap-img-dog-anim
-	from
-	 transform: translateY(100%)
-	to
-	 transform: translateY(0)
+  from
+   transform: translateY(100%)
+  to
+   transform: translateY(0)
 
 
 @keyframes mp-roadmap-img-dog-inner-anim
-	from
-	 transform: translateY(0)
-	50%
-	 transform: translateY(-20px)
-	to
-	 transform: translateY(0)
+  from
+   transform: translateY(0)
+  50%
+   transform: translateY(-20px)
+  to
+   transform: translateY(0)
 
 .mp-roadmap-items-block
-	margin-left: -30px
+  margin-left: -30px
 .mp-roadmap-items
-	margin-left: -30px
-	margin-right: -30px
-	margin-top: -30px
-	display: flex
-	flex-wrap: wrap
+  margin-left: -30px
+  margin-right: -30px
+  margin-top: -30px
+  display: flex
+  flex-wrap: wrap
 
 .mp-roadmap-item-wrapper
-	padding-left: 30px
-	padding-right: 25px
-	margin-top: 30px
-	width: 50%
+  padding-left: 30px
+  padding-right: 25px
+  margin-top: 30px
+  width: 50%
 .mp-roadmap-item
-	border-left: 2px solid #6573FC
-	height: 100%
+  border-left: 2px solid #6573FC
+  height: 100%
 .mp-roadmap-item__title
-	width: 145px
-	height: 50px
-	background-image: url('../img/svg/mp-roadmap-item-flag.svg')
-	background-position: center
-	background-repeat: no-repeat
-	background-size: 145px 50px
-	display: flex
-	align-items: center
-	padding-left: 18px
-	padding-top: 5px
-	padding-bottom: 5px
-	color: #fff
-	font-weight: 900
-	font-size: 26px
+  width: 145px
+  height: 50px
+  background-image: url('../img/svg/mp-roadmap-item-flag.svg')
+  background-position: center
+  background-repeat: no-repeat
+  background-size: 145px 50px
+  display: flex
+  align-items: center
+  padding-left: 18px
+  padding-top: 5px
+  padding-bottom: 5px
+  color: #fff
+  font-weight: 900
+  font-size: 26px
 
 .mp-roadmap-item__content
-	padding: 30px 20px
-	padding-bottom: 4px
-	padding-right: 0
+  padding: 30px 20px
+  padding-bottom: 4px
+  padding-right: 0
 
 .mp-roadmap-item-list
 
 .mp-roadmap-item-list__item
-	padding-left: 26px
-	position: relative
-	margin-top: 20px
-	&:before
-		content: ''
-		position: absolute
-		left: 0
-		top: 3px
-		width: 16px
-		height: 16px
-		background-image: url('../img/svg/check-grey.svg')
-		background-position: center
-		background-repeat: no-repeat
-		background-size: 16px 16px
-	&:first-child
-		margin-top: 0
+  padding-left: 26px
+  position: relative
+  margin-top: 20px
+  &:before
+    content: ''
+    position: absolute
+    left: 0
+    top: 3px
+    width: 16px
+    height: 16px
+    background-image: url('../img/svg/check-grey.svg')
+    background-position: center
+    background-repeat: no-repeat
+    background-size: 16px 16px
+  &:first-child
+    margin-top: 0
 
 .mp-roadmap-item-list__item--yel-grad
-	&:before
-		background-image: url('../img/svg/check-yel-grad.svg')
-
-
-
-
-
+  &:before
+    background-image: url('../img/svg/check-yel-grad.svg')
 
 .section-mp-join
-	background-image: url('../img/svg/section-join-bg.svg')
-	background-position: center top
-	background-repeat: no-repeat
-	background-size: cover
-
+  background-image: url('../img/svg/section-join-bg.svg')
+  background-position: center top
+  background-repeat: no-repeat
+  background-size: cover
 
 .mp-join-block
-	position: relative
-	padding-top: 120px
-	padding-bottom: 84px
+  position: relative
+  padding-top: 120px
+  padding-bottom: 84px
 .mp-join-discord
-	background-color: #fff
-	margin-right: auto
-	margin-left: auto
-	border-radius: 100px
-	width: 200px
-	height: 200px
-	display: flex
-	align-items: center
-	justify-content: center
-	box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 10px rgba(255, 255, 255, 0.1)
+  background-color: #fff
+  margin-right: auto
+  margin-left: auto
+  border-radius: 100px
+  width: 200px
+  height: 200px
+  display: flex
+  align-items: center
+  justify-content: center
+  box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 10px rgba(255, 255, 255, 0.1)
 .mp-join-discord-img
 
 .mp-join-title
-	text-align: center
-	color: #fff
-	margin-top: 56px
-	a
-		color: #fee440
-		&:hover
-			text-decoration: underline
+  text-align: center
+  color: #fff
+  margin-top: 56px
+  a
+    color: #fee440
+    &:hover
+      text-decoration: underline
 .mp-join-rocket
-	position: absolute
-	top: 35px
-	left: -58px
-	// offset-path: path('M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z')
-	// offset-path: path('M 187.8 92.8 c 18.6 19 27.6 35.8 47 35.8 s 35 -15.6 35 -35 s -15.6 -35.2 -35 -35 c -19.4 0.2 -26.6 14.4 -44.2 34.2 c -17.8 17.6 -31.4 35.8 -50.8 35.8 s -35 -15.6 -35 -35 s 15.6 -35 35 -35 S 172.4 77.2 187.8 92.8 z')
-	offset-path: path('M 281.7 139.2 c 27.9 28.5 41.4 53.7 70.5 53.7 s 52.5 -23.4 52.5 -52.5 s -23.4 -52.8 -52.5 -52.5 c -29.1 0.3 -39.9 21.6 -66.3 51.3 c -26.7 26.4 -47.1 53.7 -76.2 53.7 s -52.5 -23.4 -52.5 -52.5 s 23.4 -52.5 52.5 -52.5 S 258.6 115.8 281.7 139.2 z')
-// 	#rocket
-// 		animation: rocket-anim 4s ease-in-out infinite
-// 		transform-origin: 50% 50%
+  position: absolute
+  top: 35px
+  left: -58px
+  // offset-path: path('M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z')
+  // offset-path: path('M 187.8 92.8 c 18.6 19 27.6 35.8 47 35.8 s 35 -15.6 35 -35 s -15.6 -35.2 -35 -35 c -19.4 0.2 -26.6 14.4 -44.2 34.2 c -17.8 17.6 -31.4 35.8 -50.8 35.8 s -35 -15.6 -35 -35 s 15.6 -35 35 -35 S 172.4 77.2 187.8 92.8 z')
+  offset-path: path('M 281.7 139.2 c 27.9 28.5 41.4 53.7 70.5 53.7 s 52.5 -23.4 52.5 -52.5 s -23.4 -52.8 -52.5 -52.5 c -29.1 0.3 -39.9 21.6 -66.3 51.3 c -26.7 26.4 -47.1 53.7 -76.2 53.7 s -52.5 -23.4 -52.5 -52.5 s 23.4 -52.5 52.5 -52.5 S 258.6 115.8 281.7 139.2 z')
+//   #rocket
+//     animation: rocket-anim 4s ease-in-out infinite
+//     transform-origin: 50% 50%
 
-		
+    
 
 .mp-join-rocket
-	animation: rocket-anim 8s linear infinite
-	transform-origin: 50% 50%
+  animation: rocket-anim 8s linear infinite
+  transform-origin: 50% 50%
 
 @keyframes rocket-anim
-	to
-		offset-distance: 100%
-	// from
-	// 	transform: translateX(0)
-	// 50%
-	// 	transform: translateX(30px)
-	// to
-	// 	transform: translateX(0)
+  to
+    offset-distance: 100%
+  // from
+  //   transform: translateX(0)
+  // 50%
+  //   transform: translateX(30px)
+  // to
+  //   transform: translateX(0)
 
 .mp-join-rocket-inner
-	animation: rocket-anim-inner 20s ease infinite
-	transform-origin: 50% 50%
+  animation: rocket-anim-inner 20s ease infinite
+  transform-origin: 50% 50%
 
 @keyframes rocket-anim-inner
-	// from
-	// 	transform: rotate(0deg) translateX(40px) rotate(0deg)
-	// 25%
-	// 	transform: rotate(360deg) translateX(40px) rotate(-360deg)
-	// 50%
-	// 	transform: rotate(720deg) translateX(40px) rotate(-720deg)
-	// 75%
-	// 	transform: rotate(1080deg) translateX(40px) rotate(-1080deg)
-	// to
-	// 	transform: rotate(1440deg) translateX(40px) rotate(-1440deg)
+  // from
+  //   transform: rotate(0deg) translateX(40px) rotate(0deg)
+  // 25%
+  //   transform: rotate(360deg) translateX(40px) rotate(-360deg)
+  // 50%
+  //   transform: rotate(720deg) translateX(40px) rotate(-720deg)
+  // 75%
+  //   transform: rotate(1080deg) translateX(40px) rotate(-1080deg)
+  // to
+  //   transform: rotate(1440deg) translateX(40px) rotate(-1440deg)
 
 
 
 .mp-join-dog
-	position: absolute
-	right: -26px
-	bottom: 4px
+  position: absolute
+  right: -26px
+  bottom: 4px
 
 
-	#mp-join-dog
-		animation: mp-join-dog-anim 4s ease-in-out infinite
-		transform-origin: 50% 50%
+  #mp-join-dog
+    animation: mp-join-dog-anim 4s ease-in-out infinite
+    transform-origin: 50% 50%
 
-		
+    
 @keyframes mp-join-dog-anim
-	from
-	 transform: translateY(0)
-	50%
-	 transform: translateY(-20px)
-	to
-	 transform: translateY(0)
+  from
+   transform: translateY(0)
+  50%
+   transform: translateY(-20px)
+  to
+   transform: translateY(0)
 
 footer
-	background-color: #fff
+  background-color: #fff
 .footer-content
-	height: 120px
-	display: flex
-	align-items: center
-	justify-content: space-between
+  height: 120px
+  display: flex
+  align-items: center
+  justify-content: space-between
 
 .footer-left
 
 .copy
-	font-size: 14px
+  font-size: 14px
 
 
 .footer-right
@@ -1419,151 +1413,147 @@ footer
 
 
 .footer-soc
-	display: flex
-	align-items: center
-	justify-content: flex-end
+  display: flex
+  align-items: center
+  justify-content: flex-end
 .footer-soc-link
-	margin-left: 30px
-	position: relative
-	&:first-child
-		margin-left: 0
-	&:hover
-		opacity: 0.5
+  margin-left: 30px
+  position: relative
+  &:first-child
+    margin-left: 0
+  &:hover
+    opacity: 0.5
 
 
 .text--purple
-	color: #6573FC
+  color: #6573FC
 .text--yellow
-	color: #FEE440
+  color: #FEE440
 
 
 
 
 .mobile-menu-block
-	position: absolute
-	position: fixed
-	top: 0
-	right: 0
-	height: 100%
-	z-index: 120
-	transform: translateX(100%)
-	transition: 0.4s ease
-	background-color: #fff
-	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1)
-	padding-left: 20px
-	padding-right: 20px
-	width: 320px
-	overflow: auto
-	display: none
-	&.active
-		transform: translateX(0)
+  position: absolute
+  position: fixed
+  top: 0
+  right: 0
+  height: 100%
+  z-index: 120
+  transform: translateX(100%)
+  transition: 0.4s ease
+  background-color: #fff
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1)
+  padding-left: 20px
+  padding-right: 20px
+  width: 320px
+  overflow: auto
+  display: none
+  &.active
+    transform: translateX(0)
 
 .mobile-menu-top-block
-	display: -webkit-flex
-	display: -moz-flex
-	display: -ms-flex
-	display: -o-flex
-	display: flex
-	justify-content: space-between
-	align-items: center
-	height: 60px
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flex
+  display: -o-flex
+  display: flex
+  justify-content: space-between
+  align-items: center
+  height: 60px
 .mobile-menu-top-left
-	.logo
-		max-width: 180px
+  .logo
+    max-width: 180px
 .mobile-menu-top-right
-	display: -webkit-flex
-	display: -moz-flex
-	display: -ms-flex
-	display: -o-flex
-	display: flex
-	justify-content: space-between
-	align-items: center
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flex
+  display: -o-flex
+  display: flex
+  justify-content: space-between
+  align-items: center
 
 .mobile-menu-close-btn
-	width: 30px
-	height: 30px
-	background-image: url('../img/svg/mobile-menu-close-btn.svg')
-	background-position: center
-	background-repeat: no-repeat
-	background-size: 30px 30px
-	display: block
+  width: 30px
+  height: 30px
+  background-image: url('../img/svg/mobile-menu-close-btn.svg')
+  background-position: center
+  background-repeat: no-repeat
+  background-size: 30px 30px
+  display: block
 
 
 
 
 
 .mobile-menu-panel
-	padding-top: 25px
-	padding-bottom: 30px
+  padding-top: 25px
+  padding-bottom: 30px
 .mobile-menu
-	font-weight: 700
-	text-align: center
-	font-size: 12px
-	&>ul
-		width: 100%
-		list-style-type: none
-		margin: 0
-		padding: 0
-		line-height: 1.5
-		&>li
-			margin-top: 20px
-			&:first-child
-				margin-top: 0
-			a
-				color: #262728
-				display: inline-block
-				position: relative
-				&:hover
-					text-decoration: underline
-				&.purple-topline-btn
-					font-size: 12px
-					color: #fff
-					width: 100%
-					padding-top: 14px
-					padding-bottom: 14px
+  font-weight: 700
+  text-align: center
+  font-size: 12px
+  &>ul
+    width: 100%
+    list-style-type: none
+    margin: 0
+    padding: 0
+    line-height: 1.5
+    &>li
+      margin-top: 20px
+      &:first-child
+        margin-top: 0
+      a
+        color: #262728
+        display: inline-block
+        position: relative
+        &:hover
+          text-decoration: underline
+        &.purple-topline-btn
+          font-size: 12px
+          color: #fff
+          width: 100%
+          padding-top: 14px
+          padding-bottom: 14px
 .mobile-menu-bottom
-	padding-bottom: 40px
-	.topline-lang-panel
-		display: block
-		margin-left: 0
-		text-align: center
-		justify-content: center
-		display: flex
-		flex-direction: column
-		align-items: center
-	.topline-lang-dropdown
-		position: relative
+  padding-bottom: 40px
+  .topline-lang-panel
+    display: block
+    margin-left: 0
+    text-align: center
+    justify-content: center
+    display: flex
+    flex-direction: column
+    align-items: center
+  .topline-lang-dropdown
+    position: relative
 
 .mobile-menu-btn
-	display: block
-	position: relative
-	z-index: 2
-	//display: none
-	width: 30px
-	height: 30px
-	cursor: pointer
-	// display: none
-	background-image: url('../img/svg/mobile-menu-btn.svg')
-	background-position: center
-	background-repeat: no-repeat
-	background-size: 30px 30px
-	display: none
-	& *
-		pointer-events: none
-	&.active span
-		// background-color: transparent
-		// &::before
-		// 	transform: rotate(45deg) translate(-1px, 0)
-		// &::after
-		// 	transform: rotate(-45deg) translate(6px, -7px)
+  display: block
+  position: relative
+  z-index: 2
+  //display: none
+  width: 30px
+  height: 30px
+  cursor: pointer
+  // display: none
+  background-image: url('../img/svg/mobile-menu-btn.svg')
+  background-position: center
+  background-repeat: no-repeat
+  background-size: 30px 30px
+  display: none
+  & *
+    pointer-events: none
+  &.active span
+    // background-color: transparent
+    // &::before
+    //   transform: rotate(45deg) translate(-1px, 0)
+    // &::after
+    //   transform: rotate(-45deg) translate(6px, -7px)
 
 
 .mp-numbers-mobile-block
-	display: none
-
-
-
-
+  display: none
 
 
 
