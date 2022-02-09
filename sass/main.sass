@@ -1555,84 +1555,40 @@ footer
 .mp-numbers-mobile-block
   display: none
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.quick-buy
+  position: fixed
+  display: block
+  top: 50%
+  right: 0
+  margin-top: -25px
+  background: #ff865e
+  color: white
+  padding: 15px
+  border-top-left-radius: 12px
+  border-bottom-left-radius: 12px
+  &:hover
+    color: white !important
+    padding-right: 25px
+
+.quick-buy-popup
+  position: fixed
+  display: none
+  z-index: 999
+  top: 0
+  left: 0
+  bottom: 0
+  right: 0
+  background: rgba(0, 0, 0, 0.95)
+  .quick-buy-widget
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    border-radius: 12px
+    border: 0
+    max-width: 100%
+    max-height: 100% 
+    width: 460px
+    height: 632px
 
 @import "media" // Always at the end

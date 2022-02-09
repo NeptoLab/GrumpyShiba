@@ -1,6 +1,17 @@
 document.addEventListener("DOMContentLoaded", function() {
 
 	// Custom JS
+	$('.quick-buy').on('click', function(e) {
+		console.log(e);
+		e.preventDefault();
+		$('.quick-buy-popup').show();
+	});
+
+	$('.quick-buy-popup').on('click', function(e) {
+		if(!$(e.target).closest(".quick-buy-widget").length){
+			$('.quick-buy-popup').hide();
+		}
+	});
 
 
 	$("body").on('click', '[href*="#section-mp-numbers"],[href*="#section-mp-fundraising"],[href*="#section-mp-docs"],[href*="#section-mp-merch"],[href*="#section-mp-roadmap"]', function(e){
