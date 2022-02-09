@@ -13,14 +13,11 @@ document.addEventListener("DOMContentLoaded", function() {
 		}
 	});
 
-
 	$("body").on('click', '[href*="#section-mp-numbers"],[href*="#section-mp-fundraising"],[href*="#section-mp-docs"],[href*="#section-mp-merch"],[href*="#section-mp-roadmap"]', function(e){
 		var fixed_offset = 0;
 		$('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
 		e.preventDefault();
 	});
-
-
 
 	$("body").on("click",".current-lang",function (e){ 
 		e.preventDefault();
@@ -69,8 +66,6 @@ document.addEventListener("DOMContentLoaded", function() {
 			}
 		}
 	});
-
-
 
 	$("body").on("click",".mobile-menu-btn",function (e){ 
 		e.preventDefault();
