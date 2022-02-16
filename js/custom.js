@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-
-	// Custom JS
 	$('.quick-buy').on('click', function(e) {
-		console.log(e);
 		e.preventDefault();
+		$('.quick-buy-widget').attr('src', 'https://www.flooz.trade/embedded/0xAe448cB5A3ec77BA4aDcc6C8f9621e5921DCd77a');
 		$('.quick-buy-popup').show();
 	});
 
