@@ -1,16 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-	$('.quick-buy').on('click', function(e) {
-		e.preventDefault();
-		$('.quick-buy-widget').attr('src', 'https://www.flooz.trade/embedded/0xAe448cB5A3ec77BA4aDcc6C8f9621e5921DCd77a');
-		$('.quick-buy-popup').show();
-	});
-
-	$('.quick-buy-popup').on('click', function(e) {
-		if(!$(e.target).closest(".quick-buy-widget").length){
-			$('.quick-buy-popup').hide();
-		}
-	});
-
 	$("body").on('click', '[href*="#section-mp-numbers"],[href*="#section-mp-fundraising"],[href*="#section-mp-docs"],[href*="#section-mp-merch"],[href*="#section-mp-roadmap"]', function(e){
 		var fixed_offset = 0;
 		$('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
