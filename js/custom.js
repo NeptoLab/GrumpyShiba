@@ -96,8 +96,6 @@ document.addEventListener("DOMContentLoaded", function() {
 		$(".mobile-menu-block").removeClass("active")
 	});
 
-
-
 	$('.winner-slider').slick({
 		slidesToShow: 3,
 		arrows: true,
