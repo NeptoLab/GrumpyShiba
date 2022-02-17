@@ -6,7 +6,6 @@ var gulp         = require('gulp'),
 		uglify       = require('gulp-uglify-es').default,
 		cleancss     = require('gulp-clean-css'),
 		autoprefixer = require('gulp-autoprefixer'),
-		rsync        = require('gulp-rsync'),
 		newer        = require('gulp-newer'),
 		rename       = require('gulp-rename'),
 		responsive   = require('gulp-responsive'),
@@ -85,25 +84,9 @@ gulp.task('cleanimg', function() {
 // Code & Reload
 gulp.task('code', function() {
 	return gulp.src('./*.html')
-	.pipe(htmlmin({ collapseWhitespace: true }))
+	.pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
 	.pipe(gulp.dest('./docs'))
 	.pipe(browserSync.reload({ stream: true }))
-});
-
-// Deploy
-gulp.task('rsync', function() {
-	return gulp.src('./')
-	.pipe(rsync({
-		root: './',
-		hostname: 'username@yousite.com',
-		destination: 'yousite/public_html/',
-		// include: ['*.htaccess'], // Included files
-		exclude: ['**/Thumbs.db', '**/*.DS_Store'], // Excluded files
-		recursive: true,
-		archive: true,
-		silent: false,
-		compress: true
-	}))
 });
 
 gulp.task('watch', function() {
