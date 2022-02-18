@@ -9,7 +9,8 @@ var gulp         = require('gulp'),
 		newer        = require('gulp-newer'),
 		rename       = require('gulp-rename'),
 		responsive   = require('gulp-responsive'),
-		del          = require('del');
+		del          = require('del')
+		critical     = require('critical').stream;
 
 // Local Server
 gulp.task('browser-sync', function() {
@@ -37,7 +38,7 @@ gulp.task('styles', function() {
 		overrideBrowserslist: ['last 10 versions']
 	}))
 	.pipe(cleancss( {level: { 1: { specialComments: 0 } } })) // Optional. Comment out when debugging
-	.pipe(gulp.dest('./css'))
+	.pipe(gulp.dest('./docs/css'))
 	.pipe(browserSync.stream())
 });
 
@@ -90,6 +91,19 @@ gulp.task('code', function() {
 	.pipe(browserSync.reload({ stream: true }))
 });
 
+gulp.task('critical', () => {
+  return gulp
+    .src('docs/*.html')
+    .pipe(
+      critical({
+        base: 'docs/',
+        inline: true,
+        css: ['docs/css/main.min.css'],
+      })
+    )
+    .pipe(gulp.dest('docs'));
+});
+
 gulp.task('watch', function() {
 	gulp.watch('./sass/**/*.sass', gulp.parallel('styles'));
 	gulp.watch('./js/custom.js', gulp.parallel('scripts'));
@@ -97,4 +111,4 @@ gulp.task('watch', function() {
 	gulp.watch('./img/**/*', gulp.parallel('img'));
 });
 
-gulp.task('default', gulp.parallel('code', 'img', 'styles', 'scripts', 'browser-sync', 'watch'));
+gulp.task('default', gulp.parallel('img', 'styles', 'scripts', 'code', 'critical', 'browser-sync', 'watch'));

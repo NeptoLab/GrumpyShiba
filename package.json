@@ -27,5 +27,8 @@
 		"gulp-uglify-es": "^3.0.0",
 		"jquery": "^3.6.0",
 		"sass": "^1.49.7"
+	},
+	"dependencies": {
+		"critical": "^4.0.1"
 	}
 }
