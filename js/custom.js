@@ -13,33 +13,24 @@ document.addEventListener("DOMContentLoaded", function() {
 		var langLink = $(".current-lang");
 		if ( langLink.is(e.target) ) {
 			if ($(".current-lang").is(".active")) {
-
-
 				if($(window).width() < 992 ){
 					langLink.removeClass("active").next().slideUp(300);
 				} 
 				else{
-
 					langLink.removeClass("active").next().fadeOut(300);
 				}
 			} 
 			else {
-
-
 					if($(window).width() < 992 ){
 						langLink.addClass("active").next().slideDown(300);
 					} 
 					else{
-
 						langLink.addClass("active").next().fadeIn(300);
 					}
 			}
 		} else {
 			if (!langPanel.is(e.target) && langPanel.has(e.target).length === 0 ) {  
 				if ($(".current-lang").is(".active")){
-
-
-
 					if($(window).width() < 992 ){
 						$(".current-lang").removeClass("active").next().slideUp(300);
 					} 
