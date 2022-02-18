@@ -111,4 +111,4 @@ gulp.task('watch', function() {
 	gulp.watch('./img/**/*', gulp.parallel('img'));
 });
 
-gulp.task('default', gulp.parallel('img', 'styles', 'scripts', 'code', 'critical', 'browser-sync', 'watch'));
+gulp.task('default', gulp.parallel('img', 'styles', 'scripts', 'code', /*'critical',*/ 'browser-sync', 'watch'));
