@@ -151,7 +151,6 @@ function scrollActions() {
 			$(this).addClass('active');
 		}
 	});
-
 }
 
 
