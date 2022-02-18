@@ -45,8 +45,9 @@ gulp.task('styles', function() {
 // Scripts & JS Libraries
 gulp.task('scripts', function() {
 	return gulp.src('./js/custom.js')
-	.pipe(concat('custom.js'))
 	.pipe(uglify()) // Minify js (opt.)
+	.pipe(gulp.dest('./docs/js'))
+	.pipe(gulp.src('./node_modules/jquery/dist/jquery.min.js'))
 	.pipe(gulp.dest('./docs/js'))
 	.pipe(browserSync.reload({ stream: true }));
 });
