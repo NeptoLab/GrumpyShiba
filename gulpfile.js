@@ -86,14 +86,14 @@ gulp.task('cleanimg', function() {
 // Code & Reload
 gulp.task('code', function() {
 	return gulp.src('./*.html')
-	.pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
+	.pipe(htmlmin({ collapseWhitespace: true, removeComments: true, minifyJS: true }))
 	.pipe(gulp.dest('./docs'))
 	.pipe(browserSync.reload({ stream: true }))
 });
 
 gulp.task('critical', () => {
   return gulp
-    .src('docs/*.html')
+    .src('docs/**.html')
     .pipe(
       critical({
         base: 'docs/',

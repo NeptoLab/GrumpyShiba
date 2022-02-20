@@ -26,9 +26,10 @@
 		"gulp-sass": "^5.1.0",
 		"gulp-uglify-es": "^3.0.0",
 		"jquery": "^3.6.0",
-		"sass": "^1.49.7"
+		"sass": "^1.49.8"
 	},
 	"dependencies": {
-		"critical": "^4.0.1"
+		"critical": "^4.0.1",
+		"sharp": "0.30.1"
 	}
 }
